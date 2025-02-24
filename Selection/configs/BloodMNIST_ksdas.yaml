@@ -1,0 +1,20 @@
+RUN_NAME: 'bloodMNIST_ksdas'
+
+SKIP_SAVE: False
+RECOMPUTE_ALL: True
+RECOMPUTE_NUM_DEP: True
+CLASS_NUM: 8
+CLUSTERING_LABEL: 'pretrained/labels_pred_blood.npy'
+
+DATASET:
+  NAME: 'bloodmnist'
+  TRANSFORM_NAME: 'medMNIST'
+
+MODEL:
+  ARCH: 'resnet18'
+  PRETRAIN_PATH: 'pretrained/model_bloodmnist_spice.pth' 
+
+USL:
+  NUM_SELECTED_SAMPLES: 40
+  KNN_K: 200
+  SEEDS: [1,2,3,4,5]

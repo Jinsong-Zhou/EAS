@@ -1,0 +1,13 @@
+RUN_NAME: 'PathMNIST_random'
+
+SKIP_SAVE: False
+RECOMPUTE_ALL: True
+RECOMPUTE_NUM_DEP: True
+
+DATASET:
+  NAME: 'pathmnist'
+  TRANSFORM_NAME: 'medMNIST'
+
+RANDOM:
+  SEEDS: [1, 2, 3, 4, 5]
+  NUM_SELECTED_SAMPLES: 9
