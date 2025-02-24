@@ -1,2 +1,2 @@
 # EAS
-ESA: Efficient Selective Annotation for Advancing Semi-Supervised Medical Image Classification
+EAS: Efficient Selective Annotation for Advancing Semi-Supervised Medical Image Classification
